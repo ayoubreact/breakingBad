@@ -32,7 +32,7 @@ export default function App() {
         <Router>
           <Navbar />
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/breakingBad">
               <Serach getQuery={(q) => setQuery(q)} />
               <CharacterGrid isLoading={isLoading} items={characters} />
             </Route>
