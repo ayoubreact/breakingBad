@@ -1,0 +1,47 @@
+body {
+  background: url("./images/bg.jpg") no-repeat;
+  background-size: cover;
+}
+header {
+  height: 200px;
+}
+
+header img {
+  width: 200px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  min-height: 100vh !important;
+}
+.air-date {
+  display: flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+}
+.epBox {
+  overflow: visible !important;
+  min-height: 150px !important;
+}
+
+.actor-img {
+  height: 280px !important;
+  object-fit: contain !important;
+}
+
+.searchInput {
+  padding: 18px 25px;
+}
+.SearchIcon {
+  font-size: 20px !important;
+}
+.episodes {
+  padding: 25px 0;
+}
+.whiteLine {
+  color: #fff !important;
+}
