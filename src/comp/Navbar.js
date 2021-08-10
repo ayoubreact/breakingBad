@@ -11,7 +11,7 @@ function Navbar() {
       <Center>
         <Grid>
           <Group>
-            <NavLink to="/">
+            <NavLink to="/breakingBad">
               <Button
                 color="teal"
                 leftIcon={<GoPerson />}
