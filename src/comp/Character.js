@@ -46,7 +46,7 @@ function Character() {
         <Card>
           <Grid>
             <Col span={12}>
-              <NavLink to="/breakingBad/">
+              <NavLink to="/">
                 <Button
                   radius="lg"
                   color="teal"

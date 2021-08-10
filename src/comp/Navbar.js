@@ -11,7 +11,7 @@ function Navbar() {
       <Center>
         <Grid>
           <Group>
-            <NavLink to="/breakingBad">
+            <NavLink to="/">
               <Button
                 color="teal"
                 leftIcon={<GoPerson />}
@@ -21,7 +21,7 @@ function Navbar() {
                 Characters
               </Button>
             </NavLink>
-            <NavLink to="breakingBad/episodes">
+            <NavLink to="/episodes">
               <Button
                 color="teal"
                 leftIcon={<FiFilm />}
@@ -31,7 +31,7 @@ function Navbar() {
                 Episodes
               </Button>
             </NavLink>
-            <NavLink to="/breakingBad/quotes">
+            <NavLink to="/quotes">
               <Button
                 color="teal"
                 leftIcon={<BsFillChatQuoteFill />}
@@ -41,7 +41,7 @@ function Navbar() {
                 Quote
               </Button>
             </NavLink>
-            <NavLink to="/breakingBad/deaths">
+            <NavLink to="/deaths">
               <Button
                 color="teal"
                 leftIcon={<GiDeathSkull />}

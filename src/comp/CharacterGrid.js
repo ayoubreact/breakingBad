@@ -41,7 +41,7 @@ function CharacterGrid({ isLoading, items }) {
                     <Image src={character.img} className="actor-img" />
                   </CardSection>
                   <Group position="apart">
-                    <NavLink to={"/breakingBad/character/" + character.char_id}>
+                    <NavLink to={"/character/" + character.char_id}>
                       <Text
                         weight="500"
                         size="lg"
