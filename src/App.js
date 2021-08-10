@@ -32,20 +32,20 @@ export default function App() {
         <Router>
           <Navbar />
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/breakingBad/">
               <Serach getQuery={(q) => setQuery(q)} />
               <CharacterGrid isLoading={isLoading} items={characters} />
             </Route>
-            <Route exact path="/character/:id">
+            <Route exact path="/breakingBad/character/:id">
               <Character />
             </Route>
-            <Route exact path="/episodes">
+            <Route exact path="/breakingBad/episodes">
               <Episodes />
             </Route>
-            <Route exact path="/deaths">
+            <Route exact path="/breakingBad/deaths">
               <Deaths />
             </Route>
-            <Route exact path="/quotes">
+            <Route exact path="/breakingBad/quotes">
               <Quotes />
             </Route>
           </Switch>
